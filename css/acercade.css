@@ -1,0 +1,133 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:Century Gothic;
+}
+html, body{
+	width:100%;
+	height:100%;
+}
+nav .logo{
+	text-decoration:none;
+	padding:9px;
+	display:inline-block;
+	float:left;
+	font-size:26px;
+	font-family:Blackadder ITC;
+	color:white;
+	transition:0.2s;
+}
+nav .logo:hover{
+	background:#006AA4;
+	color:rgba(255, 255, 255, 0.9);
+}
+nav{
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	background:#2C3E50;
+	position:fixed;
+	z-index:2;
+}
+nav ul{
+	list-style:none;
+	overflow:hidden;
+}
+nav ul li{
+	float:right;
+}
+nav ul li a{
+	text-decoration:none;
+	display:block;
+	padding:15px;
+	color:white;
+	transition:0.3s;
+	-webkit-transition:0.3s;
+	-moz-transition:0.3s;
+}
+nav ul li a:hover{
+	background:#2ecc71;
+}
+nav ul li a span{
+	margin-right:10px;
+}
+section{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+section aside{
+	width:25%;
+	height:100%;
+	margin-top:50px;
+	float:left;
+	background:#2C3E50;
+	position:fixed;
+	z-index:1;
+}
+section aside .sb-menu{
+	width:100%;
+	height:auto;
+	text-align:center;
+}
+section aside .sb-menu ul li a{
+	text-decoration:none;
+	display:block;
+	padding:20px;
+	border-left:5px solid transparent;
+	border-bottom:1px solid #534545;
+	color:#E9DBDB;
+}
+section aside .sb-menu ul li a:hover{
+	background:rgba(20, 20, 0, 0.4);
+	border-left:8px solid green;
+}
+section aside .sb-menu ul li a span{
+	padding-right:7px;
+}
+section article{
+	width:73%;
+	padding:1%;
+	background:rgba(0, 0, 0, 0.8);
+	color:white;
+	float:right;
+}
+section article .banner{
+	width:100%;
+	height:350px;
+	background-size:100% 100%;
+}
+section article .art_d{
+	margin:1%;
+}
+section article .art_d img{
+	width:40%;
+	float:left;
+	margin-right:1%;
+	background-size:cover !important;
+}
+footer{
+	width:100%;
+	height:200px;
+	float:left;
+	background:black;
+}
+@media screen and (max-width:900px){
+	nav{
+	position:fie;
+}
+	nav .logo{
+	float:none;
+	text-align:center;
+}
+	nav .logo{
+		display:block;
+		float:none;
+}
+	nav ul li{
+		float:none;
+}
+	nav ul li a{
+		text-align:center;
+}
+}

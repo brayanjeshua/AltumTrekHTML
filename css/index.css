@@ -1,0 +1,82 @@
+.Altum{
+	width:92%;
+	padding:5% 4% 2% 4%;
+	background:url('../img/altum.jpg');
+	background-size:cover !important;
+	text-align:center;
+	color:rgba(255, 255, 255, 0.8);
+}
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+div#slider {
+	position: relative;
+	overflow: hidden;
+}
+div#slider .info{
+	width:100%;
+	margin:10% auto;
+	text-align:center;
+	position:absolute;
+	color:rgba(255, 255, 255, 0.8);
+}
+div#slider .info .adorn{
+	width:12%;
+}
+div#slider .info .logo-img{
+ width:10%;
+ opacity:0.9;
+}
+div#slider .info p{
+	font-size:1em;
+}
+div#slider .info .mapa{
+ width:50%;
+}
+div#slider figure img {
+ width:20%;
+ height:100%;
+ float: left; 
+}
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  -webkit-animation:30s slidy infinite;
+  -moz-animation:30s slidy infinite;
+  animation: 30s slidy infinite;
+}
+footer{
+	color:rgba(255, 255, 255, 0.8);
+	text-align:center;
+	padding:1%;
+}
+footer .f_cont{
+	float:left;
+	padding:1%;
+	width:31%;
+	height:200px;
+}
+footer span{
+	font-size:40px;
+	margin:1%;
+	border-radius:20px;
+	overflow:hidden;
+	cursor:pointer;
+}
+footer span:nth-child(2):hover{color:rgba(39, 212, 255, 0.7);}
+footer span:nth-child(1):hover{color:rgba(202, 46, 242, 0.7);}
+footer span:hover{
+	color:rgba(120, 255, 120, 0.7);
+}

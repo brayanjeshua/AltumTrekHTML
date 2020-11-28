@@ -1,0 +1,53 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.galeria{
+	width:100%;
+	background:red;
+}
+.galeria li{
+	position:relative;
+	display:inline-block;
+	width:33.3%;
+	height:300px; /*Medida de la caja*/
+	float:left;
+	text-align:center;
+	overflow:hidden;
+}
+.space{
+	background:red;
+}
+.or{
+	border-right:1px solid black;
+}
+.galeria li img{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.galeria li .preview{
+	width:100%;
+	height:300px;
+	position:absolute;
+	padding-top:25%;
+	top:-250%;
+	color:rgba(255, 255, 255, 0.9);
+	background:rgba(0, 0, 0, 0.7);
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	transition:0.5s;
+}
+.galeria li .preview h3{
+	font-size:36px;
+	font-family:helvetica;
+}
+.galeria li .preview img{
+	width:40%;
+	margin:auto;
+	height:20px;
+}
+.galeria li:hover .preview{
+	top:0;
+	left:0;
+}

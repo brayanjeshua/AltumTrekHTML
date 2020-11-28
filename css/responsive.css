@@ -1,0 +1,57 @@
+@media screen and (max-width:880px){
+	nav .logo{
+	float:none;
+	text-align:center;
+}
+	nav .logo{
+		display:block;
+		float:none;
+}
+	nav ul li{
+		float:none;
+}
+	nav ul li a{
+		text-align:center;
+}
+}
+@media screen and (max-width:980px){
+	.galeria a li{
+		width:50%;
+		border:0px;
+}
+	.galeria a li .preview h3{
+		font-size:30px;
+}
+@media screen and(max-width:1200px){
+	.galeria a li{
+		height:400px;
+	}
+	.galeria a li .preview{
+		height:1000px;
+	}
+}
+@media screen and (max-width:700px){
+	.Altum{
+		font-size:20px;
+	}
+	div#slider .info{
+		width:20%;
+		height:400px;
+	}
+}
+@media screen and (max-width:400px){
+	.galeria a li{
+		width:100%;
+}
+}
+@media screen and (max-width:410px){
+	.altum{
+		padding:6% 2% 2% 2%;
+}
+	.altum hgroup h1{
+		font-size:10px;
+}
+	.mapa{
+		width:200px;
+}
+}
